@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import MenuSide from './MenuSide'
 import Home from './Home'
+import arts from './articles/articles.json'
 
 class App extends Component {
   render() {
-     return(
+    const articles = arts
+    return(
       <div id="colorlib-page">
           <MenuSide/>
-          <Home/>
+          <Home articles={articles}/>
       </div>
-     )
+    )
   }
 }
 export default App;
