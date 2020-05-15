@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/gaby/static/js/main.1c50cd1b.chunk.js",
-    "main.js.map": "/gaby/static/js/main.1c50cd1b.chunk.js.map",
-    "runtime-main.js": "/gaby/static/js/runtime-main.48fe5aa0.js",
-    "runtime-main.js.map": "/gaby/static/js/runtime-main.48fe5aa0.js.map",
-    "static/js/2.86b2f0d7.chunk.js": "/gaby/static/js/2.86b2f0d7.chunk.js",
-    "static/js/2.86b2f0d7.chunk.js.map": "/gaby/static/js/2.86b2f0d7.chunk.js.map",
-    "index.html": "/gaby/index.html",
-    "precache-manifest.4ffc847b43a5add5a878e99379e83edf.js": "/gaby/precache-manifest.4ffc847b43a5add5a878e99379e83edf.js",
-    "service-worker.js": "/gaby/service-worker.js",
-    "static/js/2.86b2f0d7.chunk.js.LICENSE.txt": "/gaby/static/js/2.86b2f0d7.chunk.js.LICENSE.txt"
+    "main.js": "/gaby.ec/static/js/main.1c50cd1b.chunk.js",
+    "main.js.map": "/gaby.ec/static/js/main.1c50cd1b.chunk.js.map",
+    "runtime-main.js": "/gaby.ec/static/js/runtime-main.5b89dd21.js",
+    "runtime-main.js.map": "/gaby.ec/static/js/runtime-main.5b89dd21.js.map",
+    "static/js/2.86b2f0d7.chunk.js": "/gaby.ec/static/js/2.86b2f0d7.chunk.js",
+    "static/js/2.86b2f0d7.chunk.js.map": "/gaby.ec/static/js/2.86b2f0d7.chunk.js.map",
+    "index.html": "/gaby.ec/index.html",
+    "precache-manifest.dd29a24adcf183bceab4ace7083db8ae.js": "/gaby.ec/precache-manifest.dd29a24adcf183bceab4ace7083db8ae.js",
+    "service-worker.js": "/gaby.ec/service-worker.js",
+    "static/js/2.86b2f0d7.chunk.js.LICENSE.txt": "/gaby.ec/static/js/2.86b2f0d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.48fe5aa0.js",
+    "static/js/runtime-main.5b89dd21.js",
     "static/js/2.86b2f0d7.chunk.js",
     "static/js/main.1c50cd1b.chunk.js"
   ]
