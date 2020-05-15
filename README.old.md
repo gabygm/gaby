@@ -1,2 +1,0 @@
-# gaby
-My personal website
