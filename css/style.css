@@ -7906,7 +7906,7 @@ h1, h2, h3, h4, h5,
         color: #f05d23; }
 
 .blog-entry {
-  margin-bottom: 6em; }
+  margin-bottom: 3em; }
   .blog-entry .img {
     display: block;
     height: 400px;
@@ -8515,6 +8515,13 @@ textarea.form-control {
     margin: 3em auto 1em auto;
     width: 40%;
     height: 16%;
+  }
+
+  .article{
+    margin: auto;
+    width: 50%;
+    border-top: 1px solid green;
+    text-align: center;
   }
 
 @-webkit-keyframes loader-rotate {
