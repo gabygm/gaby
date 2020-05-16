@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Article extends Component {
     constructor(props) {
         super(props)
-
         this.state = {
             article: this.props.article
         }

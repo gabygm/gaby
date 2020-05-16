@@ -1,16 +1,19 @@
 import React, { Component } from "react";
-
 import Articles from './Articles'
+import photo from './images/gaby.png'
 
 class Home extends Component {
-    render(){
+    render() {
         const { articles } = this.props
-       
-        return(
+
+        return (
             <div id="colorlib-main">
+                <div>
+                    <img className="responsive container" src={photo} />
+                </div>
                 <div className="overlay"></div>
-                    <div className="js-fullheight d-flex justify-content-center align-items-center">
-                        <div className="col-md-8 text text-center">
+                <div className="js-fullheight d-flex justify-content-center align-items-center">
+                    <div className="col-md-8 text text-center">
                         <div className="desc">
                             <h2 className="subheading">Hello I'm</h2>
                             <h1 className="mb-4">Gabriela Guamán</h1>
@@ -21,13 +24,13 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <Articles articles={articles}/>
+                <Articles articles={articles} />
                 <footer className="ftco-footer ftco-bg-dark ftco-section">
                     <div className="container px-md-5">
 
                     </div>
                 </footer>
-            </div>      
+            </div >
 
         )
     }

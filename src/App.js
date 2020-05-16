@@ -6,10 +6,10 @@ import arts from './articles/articles.json'
 class App extends Component {
   render() {
     const articles = arts
-    return(
+    return (
       <div id="colorlib-page">
-          <MenuSide/>
-          <Home articles={articles}/>
+        <MenuSide />
+        <Home articles={articles} />
       </div>
     )
   }
