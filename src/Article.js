@@ -9,7 +9,7 @@ class Article extends Component {
     }
     render() {
         return (
-            <div className="col-md-12 article">
+            <div className="col-md-12 article-home">
                 <div className="blog-entry">
                     <div className="text text-2 pt-2 mt-3">
                         <span className="category mb-3 d-block"><a href="#">Technology</a></span>
