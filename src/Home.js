@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div id="colorlib-main">
                 <div>
-                    <img className="responsive container" src={photo} />
+                    <img className="responsive" src={photo} />
                 </div>
                 <div className="overlay"></div>
                 <div className="js-fullheight d-flex justify-content-center align-items-center">
@@ -17,9 +17,7 @@ class Home extends Component {
                         <div className="desc">
                             <h2 className="subheading">Hello I'm</h2>
                             <h1 className="mb-4">Gabriela Guamán</h1>
-                            <p className="mb-4">I am A Blogger Far far away, behind the word mountains, far from the countries Vokalia
-                            and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
-                            of the Semantics, a large language ocean.</p>
+                            <p className="mb-4">I am a sotfware developer. I define myself as a person who likes continuous learning. I have experience in programming languages like python, Kotlin, JavaScript. My areas of interest are machine learning and data. In my free time I like to walk, and I am a lover of animals and plants. I am a founder of the PyLadies Ecuador community.</p>
                             <p><a href="#" className="btn-custom">More About Me <span className="ion-ios-arrow-forward"></span></a></p>
                         </div>
                     </div>

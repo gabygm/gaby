@@ -9,21 +9,14 @@ class Article extends Component {
     }
     render() {
         return (
-
-            <div className="col-md-4">
-                <div className="blog-entry ">
+            <div className="col-md-12 article">
+                <div className="blog-entry">
                     <div className="text text-2 pt-2 mt-3">
                         <span className="category mb-3 d-block"><a href="#">Technology</a></span>
                         <h3 className="mb-4"><a href="#">{this.state.article.title}</a></h3>
                         <p className="mb-4">{this.state.article.body}
                         </p>
                         <div className="meta-wrap align-items-center">
-                            <div className="half order-md-last">
-                                <p className="meta">
-                                    <span><i className="icon-heart"></i>3</span>
-                                    <span><i className="icon-comment"></i>5</span>
-                                </p>
-                            </div>
                             <div className="half">
                                 <p><a href="#" className="btn py-2">Continue Reading <span className="ion-ios-arrow-forward"></span></a>
                                 </p>
