@@ -11,10 +11,9 @@ class MenuSide extends Component {
                     <nav id="colorlib-main-menu" role="navigation">
                         <ul>
                             <li className="colorlib-active"><a href="index.html">Home</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">About Me</a></li>
                             <li><a href="#">Tech</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="#">Photography</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
