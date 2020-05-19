@@ -20,20 +20,20 @@ class MenuSide extends Component {
                     </nav>
 
                     <div className="colorlib-footer">
-                        <script>document.write(new Date().getFullYear());</script> Practice makes perfect | 
+                        <script>document.write(new Date().getFullYear());</script> Practice makes perfect |
                         <i className="icon-heart" aria-hidden="true"></i>
-                    <ul>
-                        <li><a href="#"><i className="icon-facebook"></i></a></li>
-                        <li><a href="#"><i className="icon-twitter"></i></a></li>
-                        <li><a href="#"><i className="icon-instagram"></i></a></li>
-                        <li><a href="#"><i className="icon-linkedin"></i></a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="https://www.facebook.com/pao.gabu"><i className="icon-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/gabyp_gm"><i className="icon-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/gabyp_gm"><i className="icon-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gabygm/"><i className="icon-linkedin"></i></a></li>
+                        </ul>
                     </div>
                 </aside>
-      
+
             </div>
-            )
-        }
+        )
+    }
 }
 
 export default MenuSide
