@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import MenuSide from './MenuSide'
+import MenuSide from './components/MenuSide'
 import Home from './Home'
-import arts from './articles/articles.json'
 
 class App extends Component {
   render() {
-    const articles = arts
     return (
       <div id="colorlib-page">
         <MenuSide />
-        <Home articles={articles} />
+        <Home />
       </div>
     )
   }

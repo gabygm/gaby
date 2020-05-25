@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ArticleDetail from './ArticleDetail';
 
 class Article extends Component {
     constructor(props) {
@@ -6,6 +7,11 @@ class Article extends Component {
         this.state = {
             article: this.props.article
         }
+        this.handleClick = this.handleClick.bind(this)
+
+    }
+    handleClick() {
+        return <ArticleDetail />
     }
     render() {
         return (
@@ -18,7 +24,7 @@ class Article extends Component {
                         </p>
                         <div className="meta-wrap align-items-center">
                             <div className="half">
-                                <p><a href="#" className="btn py-2">Continue Reading <span className="ion-ios-arrow-forward"></span></a>
+                                <p><a href="#" className="btn py-2" onClick={this.handleClick} >Continue Reading <span className="ion-ios-arrow-forward"></span></a>
                                 </p>
                             </div>
                         </div>

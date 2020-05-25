@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import Articles from './Articles'
+import Articles from './components/Articles'
 import photo from './images/gaby.png'
 import pdfCV from './images/cv-page.pdf'
 
 class Home extends Component {
     render() {
-        const { articles } = this.props
-
         return (
             <div id="colorlib-main">
                 <div className="text-center">
@@ -24,10 +22,9 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <Articles articles={articles} />
+                <Articles />
                 <footer className="ftco-footer ftco-bg-dark ftco-section">
                     <div className="container px-md-5">
-
                     </div>
                 </footer>
             </div >
