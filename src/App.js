@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MenuSide from './components/MenuSide'
-import Home from './Home'
+import MenuSide from './components/home/MenuSide'
+import Home from './components/home/Home'
 
 class App extends Component {
   render() {

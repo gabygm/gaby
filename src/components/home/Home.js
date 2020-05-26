@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Articles from './components/Articles'
-import photo from './images/gaby.png'
-import pdfCV from './images/cv-page.pdf'
+import Articles from '../articles/Articles'
+import photo from '../../images/gaby.png'
+import pdfCV from '../../images/cv-page.pdf'
+
 
 class Home extends Component {
     render() {

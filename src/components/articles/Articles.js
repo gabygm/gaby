@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Article from './ArticleHeader'
-import dataArticle from './articles/articles.json'
+import dataArticle from './articles.json'
 
 class Articles extends Component {
     constructor(props) {
