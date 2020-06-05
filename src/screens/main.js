@@ -7,7 +7,6 @@ export default () => {
     return (
         <div>
             <BrowserRouter>
-                <MenuSide />
                 <Router />
             </BrowserRouter>
         </div>
