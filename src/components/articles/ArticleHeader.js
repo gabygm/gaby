@@ -1,5 +1,4 @@
  import React, { Component } from 'react';
- import ArticleDetail from './ArticleDetail';
  import { useHistory } from 'react-router-dom';
 
 export default (props) => {

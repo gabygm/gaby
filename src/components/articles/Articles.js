@@ -9,7 +9,6 @@ class Articles extends Component {
             articles: dataArticle
         }
     }
-
     render() {
         return (
             <section className="ftco-section">
