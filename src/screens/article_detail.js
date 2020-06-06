@@ -7,7 +7,7 @@ class ArticleDetail extends Component {
         super(props)
         this.state = { 
           terms: null,
-          id_article: this.props.id
+          id_article: this.props.match.params.id
         }
       }
       

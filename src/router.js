@@ -7,6 +7,6 @@ import ArticleDetail from './screens/article_detail'
 export default () => (
     <Switch>
         <Route path="/" component={HomePage} exact />
-        <Route path="/article/:id" child={(props) => (<ArticleDetail id={props.match.params.id} />)} />
+        <Route path="/article/:id" component={ArticleDetail} />
     </Switch>
 );
