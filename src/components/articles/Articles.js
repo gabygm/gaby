@@ -19,7 +19,7 @@ class Articles extends Component {
                 </div>
                 <div className="row">
                     {this.state.articles.map(article => {
-                        return <Article article={article} />
+                        return <Article key={article.id} article={article} />
                     })}
                 </div>
             </section>
