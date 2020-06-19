@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class MenuSide extends Component {
     render() {
@@ -14,7 +15,7 @@ class MenuSide extends Component {
                             <li><a href="#">About Me</a></li>
                             <li><a href="#">Tech</a></li>
                             <li><a href="#">Photography</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><Link to={'/contact'}>Contact</Link></li>
                         </ul>
                     </nav>
 

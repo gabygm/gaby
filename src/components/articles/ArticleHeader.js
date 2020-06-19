@@ -15,6 +15,7 @@ export default (props) => {
                     <div className="meta-wrap align-items-center">
                         <div className="half">
                           <Link to={`/article/${article.id}`} >Continue Reading</Link>
+
                         </div>
                     </div>
                 </div>
