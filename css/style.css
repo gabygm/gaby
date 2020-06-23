@@ -8522,6 +8522,10 @@ textarea.form-control {
     text-align: center;
   }
 
+  .contact-icon {
+    margin: 1%;
+  }
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
