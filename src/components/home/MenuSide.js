@@ -14,7 +14,6 @@ class MenuSide extends Component {
                             <li className="colorlib-active"><a href="index.html">Home</a></li>
                             <li><a href="#">About Me</a></li>
                             <li><a href="#">Tech</a></li>
-                            <li><a href="#">Photography</a></li>
                             <li><Link to={'/contact'}>Contact</Link></li>
                         </ul>
                     </nav>
