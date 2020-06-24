@@ -2,12 +2,12 @@
     {
         "id": "art_1.md",
         "title": "Terraform up & running",
-        "body": "By Gaby"
+        "body": "Devops a new culture and why we should use terraform"
     },
     {
         "id": "art_2.md",
         "title": "RESTful Web Services with Node.js and Express",
-        "body": "By Gaby"
+        "body": "How to create a basic API with Node using express"
     }
 
 ]
