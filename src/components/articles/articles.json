@@ -8,6 +8,11 @@
         "id": "art_2.md",
         "title": "RESTful Web Services with Node.js and Express",
         "body": "How to create a basic API with Node using express"
+    },
+    {
+        "id": "art_3.md",
+        "title": "Standard ugo/rwx permissions Linux.",
+        "body": "All in linux is a file, each file or directory has security properties and permissions."
     }
 
 ]
