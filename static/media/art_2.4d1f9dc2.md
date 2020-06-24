@@ -1,9 +1,3 @@
----
-favorited: true
-title: RESTful Web Services with Node.js and Express
-created: '2020-06-03T01:35:31.956Z'
-modified: '2020-06-03T18:46:19.461Z'
----
 
 # RESTful Web Services with Node.js and Express
 We are going to talk about how to build out a RESTful API with nodejs and Express

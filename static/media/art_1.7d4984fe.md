@@ -1,8 +1,3 @@
----
-title: Terraform up & running
-created: '2020-06-14T21:41:14.488Z'
-modified: '2020-06-16T00:54:32.311Z'
----
 
 # Terraform up & running
 Before DevOps movement, network configuration was created and managed by hand, thanks to the DevOps, now  exists a better way to do things with terraform.
