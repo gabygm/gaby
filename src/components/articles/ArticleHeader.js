@@ -9,11 +9,11 @@ export default (props) => {
             <div className="blog-entry">
                 <div className="text text-2 pt-2 mt-3">
                     <h3 className="mb-4 title-article">
-                        <Link to={`/article/${article.id}`} style={{color:'#b51b58'}}>
+                    {article.date} <Link to={`/article/${article.id}`} style={{color:'#b51b58'}}>
                             {article.title}
                         </Link>  
                     </h3>
-                    <p className="mb-4">{article.body}
+                    <p className="mb-4 title-article">{article.body}
                     </p>
                    
                 </div>

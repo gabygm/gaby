@@ -6,11 +6,16 @@ Terraform created by HashiCorp, allows to define infrastructure as code and depl
 
 Example Server on Amazon Web Services:
 
-``` provider "aws" { ```
-``` region: "us-east-2" ```  
+```provider "aws" {```
+
+```region: "us-east-2"```  
+
 ``` } ```
+
 ``` resource "aws_instance" "name_instance" {```
+
 ``` ami =  "ami-40d28157" ``` 
+
 ``` instance_type = "t2.micro" ```
 ``` } ``` 
 
@@ -36,7 +41,8 @@ When you infrastructure is defined as code, you are able to use a wide variety o
 
 # How Terraform Works
 Written in the Golang programming language. The Go code compiles down into a single binary called **terraform**, under the hood, the terraform binary makes API calls on your behalf to one or more providers.
-Terraform is a binary that translates the contents of your configurations into API calls to cloud providers
+Terraform is a binary that translates the contents of your configurations into API calls to cloud providers.
+
 ![Terraform cloud providers](https://miro.medium.com/max/332/1*DO9YtvSEfmBb8YHeJ0QW2w.png)
 
 SOURCES:

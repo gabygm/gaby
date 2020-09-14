@@ -2,17 +2,20 @@
     {
         "id": "art_1.md",
         "title": "Terraform up & running",
-        "body": "Devops a new culture and why we should use terraform"
+        "body": "Devops a new culture and why we should use terraform",
+        "date": "12/04/2020"
     },
     {
         "id": "art_2.md",
         "title": "RESTful Web Services with Node.js and Express",
-        "body": "How to create a basic API with Node using express"
+        "body": "How to create a basic API with Node using express",
+        "date": "10/04/2020"
     },
     {
         "id": "art_3.md",
         "title": "Standard ugo/rwx permissions Linux.",
-        "body": "All in linux is a file, each file or directory has security properties and permissions."
+        "body": "All in linux is a file, each file or directory has security properties and permissions.",
+        "date": "08/03/2020"
     }
 
 ]
