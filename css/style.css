@@ -8530,6 +8530,10 @@ textarea.form-control {
   {
      color: #ed312f;
   }
+  .title-article {
+    text-align: left;
+    margin-left: 8%;
+  }
 
   .title-article:hover {
       background-color: #eeeeee

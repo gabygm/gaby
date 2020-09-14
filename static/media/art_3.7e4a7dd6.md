@@ -2,9 +2,9 @@
 All in linux is a file, each file or directory has security properties and permissions.
 
 ### Permissions
-r(read) = 4
-w(write) = 2
-x(execute) = 1
+- r(read) = 4
+- w(write) = 2
+- x(execute) = 1
 
 The above permisions are applied to both files and directories.
 
@@ -14,9 +14,10 @@ The above permisions are applied to both files and directories.
   type | permissions |permission |
 
 
-### Examples
+### Examples:
 ``` ls ``` List file and directory
-``` ls -l name directory ``` 
+
+``` ls -l ``` name directory
 
 ``drwxr-xr-x  5 gabriela  staff   160 Jun 18 18:55 src ``
 - **drwxr** -> Type directory and permissions
